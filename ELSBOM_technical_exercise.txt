@@ -1,0 +1,17 @@
+Create a Java API that provides details of elements in the periodic table based on the attached dataset.
+
+The API should provide the following functions:
+- Get a list of all elements on the periodic table. Each element should have the following properties:
+        - Name
+        - Atomic number
+- Get a filtered list of elements based on group (e.g '13' for Aluminium)
+- Get details for an individual element by atomic number. The query should return
+	- Atomic number
+	- Name
+	- Alternative name if one exists, else "none"
+        
+Once live, the data is expected to receive periodic minor updates. The goal of the exercise is to demonstrate a working solution. It should show good engineering practices. Part of the interview will involve reflecting on the reasoning and approach to the solution, and where trade-offs have been made.
+
+If you want to implement more than specified, you are welcome to. If you can't complete the exercise within a reasonable timeframe we would still encourage you to submit, as long as what you have built is of good quality, works, and the end result is something that gives us a good impression of your software development skills. Once complete please make the source code of your application available and let us know at least 24 hours before the interview.
+
+If there are any questions, please let us know.
